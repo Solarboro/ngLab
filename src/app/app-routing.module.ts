@@ -9,6 +9,9 @@ const routes: Routes = [
   { path: 'module1', loadChildren: () => import('./modules/test/module1/module1.module').then(m => m.Module1Module) }, { path: 'module2', loadChildren: () => import('./modules/test/module2/module2.module').then(m => m.Module2Module) },
   { path: 'index', component: IndexComponent},
   { path: '', redirectTo: 'index', pathMatch: 'full'},
+  
+
+  { path: 'clan', loadChildren: () => import('./modules/clan/clan.module').then(m => m.ClanModule) },
   { path: '**', component: NotfoundComponent},
 
 ];

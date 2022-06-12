@@ -2,7 +2,7 @@
 <p>module1 works!</p>
 
 
-<p-dialog header="Long Content" [(visible)]="display" [style]="{width: '80vw'}" position="left">
+<p-dialog header="Long Content" [(visible)]="display"  [style]="{width: '90vw'}" [modal]="true" [closable]="false">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
         culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -34,7 +34,7 @@
 
     <div class="search">
         <input type="text" [placeholder]="placeholder" #itext>
-        <img src="assets/icon/iconSearch.svg" alt="" class="iconSearch">
+        <img src="assets/icon/iconSearch.svg" alt="" class="iconSearch" (click)="options=true">
     </div>
 
     <img src="assets/icon/iconFilter.svg" alt="" class="iconFilter">
@@ -110,3 +110,15 @@
     <span class="title">Helloworld</span>
     
 </div>
+
+
+
+
+<p-dialog header="Title" [(visible)]="newUser" [style]="{width: '80vw'}" [modal]="true">
+    No Permission
+</p-dialog>
+
+
+<p-sidebar [(visible)]="options" position="bottom" styleClass="p-sidebar-sm">
+    Content
+</p-sidebar>

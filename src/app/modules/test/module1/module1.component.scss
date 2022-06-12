@@ -2,6 +2,12 @@
 
 
 
+:host ::ng-deep p-sidebar > div{
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
 
 .searchbar{
     display: flex;

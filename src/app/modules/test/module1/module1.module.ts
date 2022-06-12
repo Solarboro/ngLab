@@ -13,7 +13,7 @@ import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { DetailComponent } from './comps/detail/detail.component';
 import { NotfoundComponent } from './comps/notfound/notfound.component';
-
+import {SidebarModule} from 'primeng/sidebar';
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/lang/', '.json');
 }
@@ -30,7 +30,7 @@ export function createTranslateLoader(http: HttpClient) {
     DialogModule,
     ButtonModule,
     Module1RoutingModule,
-    
+    SidebarModule,
     HttpClientModule,//要先注入这个服务不然会报错
     TranslateModule.forRoot({
       loader: {

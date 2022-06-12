@@ -1,16 +1,18 @@
 
 
-
 <div class="leftItem">
-    <ng-content select=".leftItem"></ng-content>
-  
+    <!-- <ng-content select=".leftItem"></ng-content> -->
+    <img *ngIf="nav.lIcon" [src]="iconPath + nav.lIcon + '.svg'" alt="" (click)="nav.lEvent($event)">
 </div>
-
 
 <div class="title">
-    <ng-content></ng-content>
-    
+    <!-- <ng-content></ng-content> -->
+    {{nav?.title}}
 </div>
+
 <div class="rightItem">
-    <ng-content select=".rightItem"></ng-content>
+    <!-- <ng-content select=".rightItem"></ng-content> -->
+    <img *ngIf="nav.rIcon" [src]="iconPath + nav.rIcon + '.svg'" alt="" (click)="nav.rEvent($event)">
+
+    <img *ngIf="nav.rIcon" [src]="iconPath + 'icon=users_nav' + '.svg'" alt="" >
 </div>

@@ -1,5 +1,9 @@
 {
     "searchBar": {
         "planceholder": "搜索"
+    },
+
+    "nav":{
+        "title": "Git Title"
     }
 }

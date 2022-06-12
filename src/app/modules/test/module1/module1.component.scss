@@ -31,3 +31,34 @@
         }
     }
 }
+
+
+.tflex{
+    display: flex;
+    // justify-content: space-between;
+    // flex-direction: column;
+}
+
+
+
+
+.flurimg{
+
+    width: 200px;
+height: 197px;
+
+color:#fff;
+
+// background-size: cover;
+// background:  url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fss2.meipian.me%2Fusers%2F5012908%2F0af67e8c84774d1a9785c8e60c8ecfdf.jpg%3Fmeipian-raw%2Fbucket%2Fivwen%2Fkey%2FdXNlcnMvNTAxMjkwOC8wYWY2N2U4Yzg0Nzc0ZDFhOTc4NWM4ZTYwYzhlY2ZkZi5qcGc%3D%2Fsign%2F796ebc27f51bbb03013b0c1a84e60e8a.jpg&refer=http%3A%2F%2Fss2.meipian.me&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657588590&t=b16639752ecaf7ddcb159b24d287bd49);
+
+
+// background: linear-gradient(0deg, rgba(136, 136, 136, 0.8), rgba(136, 136, 136, 0.8)), url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fss2.meipian.me%2Fusers%2F5012908%2F0af67e8c84774d1a9785c8e60c8ecfdf.jpg%3Fmeipian-raw%2Fbucket%2Fivwen%2Fkey%2FdXNlcnMvNTAxMjkwOC8wYWY2N2U4Yzg0Nzc0ZDFhOTc4NWM4ZTYwYzhlY2ZkZi5qcGc%3D%2Fsign%2F796ebc27f51bbb03013b0c1a84e60e8a.jpg&refer=http%3A%2F%2Fss2.meipian.me&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657588590&t=b16639752ecaf7ddcb159b24d287bd49) round;
+background: linear-gradient(0deg, rgba(136, 136, 136, 0.8), rgba(136, 136, 136, 0.9)), url(/assets/img/bg2.png) round;
+filter: blur(1px);
+// backdrop-filter: blur(50px);
+background-size: contain;
+.title{
+    filter: none;
+}
+}

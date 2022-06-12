@@ -1,7 +1,8 @@
+
 <p>module1 works!</p>
 
 
-<p-dialog header="Long Content" [(visible)]="display" [style]="{width: '80vw'}" position="right">
+<p-dialog header="Long Content" [(visible)]="display" [style]="{width: '80vw'}" position="left">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
         culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -45,3 +46,67 @@
 
 
 <img src="{{iconleft}}" alt="">
+
+
+<div class="nav">
+
+
+    <a class="item" routerLink="detail" routerLinkActive="router-link-active" >
+      Title 1
+    </a>
+  
+    <a class="item" routerLink="module2" routerLinkActive="router-link-active">
+      Title 2
+    </a>
+  
+  </div>
+
+
+  
+<router-outlet></router-outlet>
+
+
+
+
+<div *ngIf="true else falseTemplate">
+    Hello True
+</div>
+
+<ng-template #falseTemplate>
+    <div>Hello False</div>
+    <div>Hello False</div>
+    <div>Hello False</div>
+</ng-template>
+
+
+
+<div class="flurimg">
+
+
+    <span class="title">Helloworld</span>
+    
+</div>
+
+
+<div class="flurimg">
+
+
+    <span class="title">Helloworld</span>
+    
+</div>
+
+
+<div class="flurimg">
+
+
+    <span class="title">Helloworld</span>
+    
+</div>
+
+
+<div class="flurimg">
+
+
+    <span class="title">Helloworld</span>
+    
+</div>

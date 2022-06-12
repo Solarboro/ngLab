@@ -21,12 +21,6 @@ export class Module1Component implements OnInit {
   placeholder: string='';
   constructor(public translate: TranslateService) {
     this.translate.use('cn');
-
-
-    this.translate.get('searchBar.planceholder').subscribe( str => this.placeholder=str);
-
-
-    this.iconleft = `${environment.iconPath}icon=users.svg`;
    }
 
   ngOnInit(): void {
@@ -37,5 +31,9 @@ export class Module1Component implements OnInit {
 
   showDialog() {
       this.display = !this.display;
+  }
+
+  contentc(): void{
+    alert('alert');
   }
 }

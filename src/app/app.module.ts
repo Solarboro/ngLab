@@ -7,10 +7,14 @@ import { AppComponent } from './app.component';
 import {DialogModule} from 'primeng/dialog'
 import {ButtonModule} from 'primeng/button';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { NotfoundComponent } from './common/notfound/notfound.component';
+import { NavComponent } from './common/nav/nav.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NotfoundComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

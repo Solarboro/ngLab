@@ -1,0 +1,31 @@
+:host{
+    background-color: #f33;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+
+
+    .title{
+        color: #fff;
+        font-size: 1.2rem;
+        letter-spacing: 0.1em;
+
+
+        justify-content: center;
+    }
+
+    .leftItem, .title, .rightItem{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+     
+    }
+    .rightItem{
+        justify-content: flex-end;
+    }
+}
+
+

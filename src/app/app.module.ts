@@ -9,12 +9,14 @@ import {ButtonModule} from 'primeng/button';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NotfoundComponent } from './common/notfound/notfound.component';
 import { NavComponent } from './common/nav/nav.component';
+import { IndexComponent } from './comps/index/index.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NotfoundComponent,
-    NavComponent
+    NavComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,

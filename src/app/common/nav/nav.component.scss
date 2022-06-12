@@ -7,15 +7,6 @@
     padding: 0.5rem 1rem;
 
 
-    .title{
-        color: #fff;
-        font-size: 1.2rem;
-        letter-spacing: 0.1em;
-
-
-        justify-content: center;
-    }
-
     .leftItem, .title, .rightItem{
         height: 24px;
         flex: 1;
@@ -27,6 +18,16 @@
     .rightItem{
         justify-content: flex-end;
     }
+
+    
+    .title{
+        color: #fff;
+        font-size: 1.2rem;
+        letter-spacing: 0.1em;
+        flex: 2;
+        justify-content: center;
+    }
+
 }
 
 

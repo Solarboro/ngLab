@@ -59,4 +59,23 @@
 
         }
     }
+
+
+
+    ::ng-deep .p-dialog-content{
+        display: flex;
+        padding-top: 3px;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .p-input-icon-left input{
+        
+            width: 100%;
+
+        }
+    }
+
+
 }
+
+

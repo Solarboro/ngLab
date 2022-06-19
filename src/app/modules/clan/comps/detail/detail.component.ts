@@ -2,18 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { NavService } from 'src/app/common/nav/nav.service';
 
 @Component({
-  selector: 'app-clan',
-  templateUrl: './clan.component.html',
-  styleUrls: ['./clan.component.scss']
+  selector: 'app-detail',
+  templateUrl: './detail.component.html',
+  styleUrls: ['./detail.component.scss']
 })
-export class ClanComponent implements OnInit {
-
-
-  //
-  cName: string = '';
-
-
-  displayBasic: boolean = false;
+export class DetailComponent implements OnInit {
 
   constructor(
     navService: NavService
@@ -21,11 +14,11 @@ export class ClanComponent implements OnInit {
 
     
     navService.changeNav({
-      title: '宗族',
+      title: '李公世系表',
       lIcon: 'icon=chevron-left_nav',
       lEvent: ()=>{window.history.back()},
-      rIcon: 'icon=plus_nav',
-      rEvent: ()=>{this.displayBasic = true},
+      // rIcon: 'icon=plus_nav',
+      // rEvent: ()=>{},
     });
    }
 
